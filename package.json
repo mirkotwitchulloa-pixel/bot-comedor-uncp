@@ -1,0 +1,17 @@
+{
+  "name": "bot-comedor-uncp",
+  "version": "1.0.0",
+  "description": "Bot automático para registro en comedor UNCP",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "puppeteer": "^21.0.0",
+    "node-schedule": "^2.1.1",
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
